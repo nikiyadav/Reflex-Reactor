@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="rr.reflexreactor.Level_catagory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".086"
+        android:layout_marginTop="5dp">
+        <Button
+            android:id="@+id/quick_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quick Play"
+            style="@style/button"
+            android:textSize="25dp"
+            android:onClick="quick_play"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".32"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".08"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LEVEL"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:textColor="#FFD32F2F"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".20"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".50"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/level1"
+                    style="@style/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textSize="30dp"
+                    android:onClick="level_select"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".50"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/level2"
+                    style="@style/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textSize="30dp"
+                    android:onClick="level_select"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".20"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".50"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/level3"
+                    style="@style/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textSize="30dp"
+                    android:onClick="level_select"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".50"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/level4"
+                    style="@style/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textSize="30dp"
+                    android:onClick="level_select"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".60"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".20"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CATEGORIES"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:textColor="#FFD32F2F"/>
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager2"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight=".60"/>
+
+        <LinearLayout
+            android:id="@+id/image_countb"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#00000000"
+            android:layout_weight=".15">
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".085"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/start_solo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/button"
+            android:text="Start"
+            android:textSize="25dp"
+            android:onClick="start_game"
+            />
+    </LinearLayout>
+</LinearLayout>

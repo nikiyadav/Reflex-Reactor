@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="rr.reflexreactor.Answers"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".20"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".50"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Question 1"
+                    android:id="@+id/question1"
+                    style="@style/button"
+                    android:onClick="get_me_answer"
+                    />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".50"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Question 2"
+                android:id="@+id/question2"
+                android:onClick="get_me_answer"
+                style="@style/button"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".20">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".50"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Question 3"
+                android:id="@+id/question3"
+                android:onClick="get_me_answer"
+                style="@style/button"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".50"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Question 4"
+                android:onClick="get_me_answer"
+                android:id="@+id/question4"
+                style="@style/button"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".20">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".50"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Question 5"
+                android:onClick="get_me_answer"
+                android:id="@+id/question5"
+                style="@style/button"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".50"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Question 6"
+                android:onClick="get_me_answer"
+                android:id="@+id/question6"
+                style="@style/button"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".20">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".50"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Question 7"
+                android:onClick="get_me_answer"
+                android:id="@+id/question7"
+                style="@style/button"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".50"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Question 8"
+                android:onClick="get_me_answer"
+                android:id="@+id/question8"
+                style="@style/button"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".20">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".50"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Question 9"
+                android:onClick="get_me_answer"
+                android:id="@+id/question9"
+                style="@style/button"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight=".50"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Question 10"
+                android:onClick="get_me_answer"
+                android:id="@+id/question10"
+                style="@style/button"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

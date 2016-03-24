@@ -1,0 +1,63 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Reflex Reactor</string>
+    <string name="button_multiplayer">MultiPlayer</string>
+    <string name="button_help">Help</string>
+    <string name="button_stats">Stats</string>
+    <string name="button_soloplayer">SoloPlayer</string>
+    <string name="page_title">Page no <xliff:g id="step_number">%1$d</xliff:g>: Lorem
+        Ipsum</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_single_player">Single_player</string>
+    <string name="title_activity_multi_player">Multi_player</string>
+    <string name="title_activity_score_board">Score_board</string>
+    <string name="title_activity_invites">Invites</string>
+    <string name="title_activity_online">Online</string>
+    <string name="title_activity_offline">Offline</string>
+    <string name="title_activity_create_game">Create_game</string>
+    <string name="title_activity_join_game">Join_game</string>
+    <string name="title_activity_category">Category</string>
+    <string name="title_activity_questions">Questions</string>
+    <string name="preference_file_key">PreferenceFileKey</string>
+    <string name="saved_reg_id">RegistrationId</string>
+    <string name="saved_phn">Phn</string>
+    <string name="saved_uname">Uname</string>
+    <string name="matches_played">matches_played</string>
+    <string name="matches_won">matches_won</string>
+    <string name="rating">rating</string>
+    <string name="gems">gems</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_online_list">OnlineList</string>
+    <string name="title_activity_request">RequestActivity</string>
+    <string name="title_activity_home2">Home2</string>
+    <string name="title_activity_accepted">Accepted</string>
+    <string name="title_activity_scoreboard2">scoreboard2</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_result2">ResultActivity2</string>
+    <string name="title_activity_internet">InternetActivity</string>
+    <string name="title_activity_accepted_challenge">AcceptedChallenge</string>
+
+
+     <string name="RR">Reflex Reactor is a fastest finger first quiz. You have to quickly tap the options in correct
+    order to get more points.\n</string>
+    <string name="level">Level 1: Time limit is 30 sec.\nLevel 2: Time limit is 20 sec.
+        \nLevel 3: Time limit is 15 sec.\nLevel 4: Time limit is 10 sec.\n</string>
+    <string name="cat">We have 12 categories.\n\n1. MISC: Questions of different kinds-synonyms, calculations and more.
+        \n\n2. GENERAL KNOWLEDGE: Questions of general intelligence.\n\n
+    3. CRICKET: Questions entirely based on cricket.\n\n4. GEOGRAPHY: Questions related to different places.\n\n5.
+        Mythology: Questions related to hindu mythologies like Mahabharata.\n\n6. History: Questions related
+    to historical events.\n\n7. INDIAN CULTURE: Questions about Indian culture.\n\n8. POLITICS:
+        Questions related to political activities.\n\n9.SCIENCE: Contains simple science questions.\n\n10. SPORTS:
+    Questions related to different international sports.\n\n11. TV AND MOVIES: Questions related to different Tv
+        series and movies.\n\n12. ECONOMICS: Questions related to economics.\n
+    </string>
+    <string name="rules">1. You must press SUBMIT button to finalise your answer.
+        After pressing submit, you cannot change your answer.\n\n
+        2. You can reset your answer using RESET button. It will allow you to retap your answer.\n\n
+        3. Scoring is based on degree of correctness of answer as well as response time. If only two options are in correct
+        order then you will get negative marks!\n\n
+        4. If you won a match you will be given 10 gems!\n\n
+        5. If you lose a match 5 gems will be deducted!\n</string>
+
+</resources>

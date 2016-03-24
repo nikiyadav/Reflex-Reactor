@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linearLayout1"
+        android:layout_height="0dp"
+        android:layout_weight=".70"
+        android:orientation="vertical">
+        <fragment
+            class="rr.reflexreactor.DeviceListFragment"
+            android:id="@+id/list_frag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_device_list" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linearLayout2"
+        android:layout_height="0dp"
+        android:layout_weight=".20"
+        android:orientation="vertical">
+        <fragment
+            class="rr.reflexreactor.DeviceDetailFragment"
+            android:id="@+id/detail_frag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_device_detail"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".10"
+        >
+        <Button
+            android:id="@+id/discover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Discover"
+            android:textSize="20dp"
+            android:onClick="discover_me"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+

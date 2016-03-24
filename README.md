@@ -1,0 +1,1 @@
+Reflex Reactor is a quizzing game but what differentiates it from others is that it supports multiplayer(more than 2 players can compete) and they can compete over internet as well as using Wifi Direct(P2P).
